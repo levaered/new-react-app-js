@@ -1,0 +1,69 @@
+.card {
+    position: relative;
+    padding: 2rem 1rem;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.popular-wrapper {
+    width: auto;
+    padding: 0.3rem 1rem;
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    top: 0;
+    right: 0; 
+    box-sizing: border-box;
+}
+
+.popular {
+    font-weight: bold;
+    color: #1fa9b8;
+    margin: 0;
+}
+
+.price {
+    color: #000;
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.price-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.55rem;
+}
+
+.currency {
+    margin-left: 0.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 80%;
+    gap: 1.5rem;
+    padding: 0;
+    justify-content: space-between;
+}
+
+.buy-button {
+    padding: 0.5rem 1rem;
+    border-radius: 1000px;
+    background-color: #fece01;
+    border: none;
+    font-weight: 500;
+}
+
+.product-img {
+    height: 90%;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
